@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root"; // default username for localhost is root
 $password = ""; // default password for localhost is empty
 $dbname = "events"; // database name
-$socket = "/cloudsql/noted-fact-241421:europe-west1:events"; // database name
+$socket = "/cloudsql/cloud-assignment03:europe-west1:cloud3db"; // database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
